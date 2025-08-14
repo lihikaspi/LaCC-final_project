@@ -1,4 +1,5 @@
 library(mgcv)
+library(dplyr)
 
 wave1 <- read.csv("wave1_GAM.csv")
 
@@ -42,4 +43,5 @@ wave2_clean <- wave2 %>%
     lang_orth_depth = relevel(factor(lang_orth_depth), ref = "Deep"),
     subj_id = factor(subj_id),
     word = factor(word) 
+
   )
