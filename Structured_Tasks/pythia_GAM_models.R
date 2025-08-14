@@ -87,3 +87,4 @@ bam_first_run_dwell <- bam(
 
 summary(bam_first_run_dwell)
 saveRDS(bam_first_run_dwell, file="pythia_GAM_models/bam_first_run_dwell.rds")
+
